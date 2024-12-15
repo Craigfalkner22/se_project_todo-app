@@ -23,3 +23,4 @@ The checkbox was also a work of a little JavaScript magic. https://drive.google.
 ## Deployment
 
 This project is deployed on GitHub Pages:
+https://craigfalkner22.github.io/se_project_todo-app/
