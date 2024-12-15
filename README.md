@@ -1,6 +1,6 @@
 # Simple Todo App
 
-My project is a simple Todo list that can add or remove activities that need to be done to with a daue date on when they need to be done.
+My project is a simple Todo list that can add or remove activities that need to be done to with a due date on when they need to be done.
 
 ## Functionality
 
