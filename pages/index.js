@@ -31,7 +31,10 @@ function handleCheck(completed) {
   todoCounter.updateCompleted(completed);
 }
 
-function handleDelete() {
+function handleDelete(completed) {
+  if (completed) {
+    todoCounter.updateCompleted(false);
+  }
   todoCounter.updateTotal(false);
 }
 
@@ -44,10 +47,6 @@ const generateTodo = (data) => {
 
 addTodoButton.addEventListener("click", () => {
   addTodoPopup.open();
-});
-
-addTodoCloseBtn.addEventListener("click", () => {
-  addTodoPopup.close();
 });
 
 const renderTodo = (item) => {
